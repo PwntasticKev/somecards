@@ -30,17 +30,17 @@ export default class componentName extends Component {
 		<div className="card-ctn__card">
 			<div className="card-ctn__card__img-ctn">
 				<img src={v.url} alt="💩" className="card-ctn__card__img-ctn--img"/>
-				{ 
+				{/* { 
 					v.workouts !== ''
 					? 
 					<div className="card-ctn__card__img-ctn--workout-count">
 						<>{v.workouts}</>
 						<>Workouts</>
-						
+
 					</div> 
 					: 
 					<></>
-				}
+				} */}
 			</div>
 			<div className="card-ctn__card__desc-container">
 				<div className="d-flex align-items-center">
