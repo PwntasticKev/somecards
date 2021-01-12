@@ -64,9 +64,11 @@ export default class componentName extends Component {
 				{ 
 					v.link !== ''
 					? 
-					<div className="card-ctn__card__desc-container__details">
-						VIEW DETAILS
-					</div> 
+					<a href={v.link} target="_blank">
+						<div className="card-ctn__card__desc-container__details">
+							VIEW DETAILS
+						</div> 
+					</a>
 					: 
 					<></>
 				}
